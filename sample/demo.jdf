@@ -1,61 +1,56 @@
 job:
 task:
-get run.sh experiments/cloudlab-demo/code/run.sh
-get 0.tar.gz experiments/cloudlab-demo/input/0.tar.gz
-bash run.sh 0.tar.gz ndvi-0.png
-put ndvi-0.png experiments/cloudlab-demo/output/
+get run.sh Experiments/ProcessImgJan/bin/run.sh
+get input.tar.gz Experiments/ProcessImgJan/input.tar.gz
+sudo bash run.sh input.tar.gz ndvi-ProcessImgJan.png
+put ndvi-ProcessImgJan.png Experiments/ProcessImgJan/output.png
 
 task:
-get run.sh experiments/cloudlab-demo/code/run.sh
-get 1.tar.gz experiments/cloudlab-demo/input/1.tar.gz
-bash run.sh 1.tar.gz ndvi-1.png
-put ndvi-1.png experiments/cloudlab-demo/output/
+get run.sh Experiments/ProcessImgFev/bin/run.sh
+get input.tar.gz Experiments/ProcessImgFev/input.tar.gz
+sudo bash run.sh input.tar.gz ndvi-ProcessImgFev.png
+put ndvi-ProcessImgFev.png Experiments/ProcessImgFev/output.png
 
 task:
-get run.sh experiments/cloudlab-demo/code/run.sh
-get 2.tar.gz experiments/cloudlab-demo/input/2.tar.gz
-bash run.sh 2.tar.gz ndvi-2.png
-put ndvi-2.png experiments/cloudlab-demo/output/
+get run.sh Experiments/ProcessImgMar/bin/run.sh
+get input.tar.gz Experiments/ProcessImgMar/input.tar.gz
+sudo bash run.sh input.tar.gz ndvi-ProcessImgMar.png
+put ndvi-ProcessImgMar.png Experiments/ProcessImgMar/output.png
 
 task:
-get run.sh experiments/cloudlab-demo/code/run.sh
-get 3.tar.gz experiments/cloudlab-demo/input/3.tar.gz
-bash run.sh 3.tar.gz ndvi-3.png
-put ndvi-3.png experiments/cloudlab-demo/output/
+get run.sh Experiments/ProcessImgAbr/bin/run.sh
+get input.tar.gz Experiments/ProcessImgAbr/input.tar.gz
+sudo bash run.sh input.tar.gz ndvi-ProcessImgAbr.png
+put ndvi-ProcessImgAbr.png Experiments/ProcessImgAbr/output.png
 
 task:
-get run.sh experiments/cloudlab-demo/code/run.sh
-get 4.tar.gz experiments/cloudlab-demo/input/4.tar.gz
-bash run.sh 4.tar.gz ndvi-4.png
-put ndvi-4.png experiments/cloudlab-demo/output/
+get run.sh Experiments/ProcessImgMai/bin/run.sh
+get input.tar.gz Experiments/ProcessImgMai/input.tar.gz
+sudo bash run.sh input.tar.gz ndvi-ProcessImgMai.png
+put ndvi-ProcessImgMai.png Experiments/ProcessImgMai/output.png
 
 task:
-get run.sh experiments/cloudlab-demo/code/run.sh
-get 5.tar.gz experiments/cloudlab-demo/input/5.tar.gz
-bash run.sh 5.tar.gz ndvi-5.png
-put ndvi-5.png experiments/cloudlab-demo/output/
+get run.sh Experiments/ProcessImgJun/bin/run.sh
+get input.tar.gz Experiments/ProcessImgJun/input.tar.gz
+sudo bash run.sh input.tar.gz ndvi-ProcessImgJun.png
+put ndvi-ProcessImgJun.png Experiments/ProcessImgJun/output.png
 
 task:
-get run.sh experiments/cloudlab-demo/code/run.sh
-get 6.tar.gz experiments/cloudlab-demo/input/6.tar.gz
-bash run.sh 6.tar.gz ndvi-6.png
-put ndvi-6.png experiments/cloudlab-demo/output/
+get run.sh Experiments/ProcessImgJul/bin/run.sh
+get input.tar.gz Experiments/ProcessImgJul/input.tar.gz
+sudo bash run.sh input.tar.gz ndvi-ProcessImgJul.png
+put ndvi-ProcessImgJul.png Experiments/ProcessImgJul/output.png
 
 task:
-get run.sh experiments/cloudlab-demo/code/run.sh
-get 7.tar.gz experiments/cloudlab-demo/input/7.tar.gz
-bash run.sh 7.tar.gz ndvi-7.png
-put ndvi-7.png experiments/cloudlab-demo/output/
+get run.sh Experiments/ProcessImgAgo/bin/run.sh
+get input.tar.gz Experiments/ProcessImgAgo/input.tar.gz
+sudo bash run.sh input.tar.gz ndvi-ProcessImgAgo.png
+put ndvi-ProcessImgAgo.png Experiments/ProcessImgAgo/output.png
 
 task:
-get run.sh experiments/cloudlab-demo/code/run.sh
-get 8.tar.gz experiments/cloudlab-demo/input/8.tar.gz
-bash run.sh 8.tar.gz ndvi-8.png
-put ndvi-8.png experiments/cloudlab-demo/output/
+get run.sh Experiments/ProcessImgSet/bin/run.sh
+get input.tar.gz Experiments/ProcessImgSet/input.tar.gz
+sudo bash run.sh input.tar.gz ndvi-ProcessImgSet.png
+put ndvi-ProcessImgSet.png Experiments/ProcessImgSet/output.png
 
-task:
-get run.sh experiments/cloudlab-demo/code/run.sh
-get 9.tar.gz experiments/cloudlab-demo/input/9.tar.gz
-bash run.sh 9.tar.gz ndvi-9.png
-put ndvi-9.png experiments/cloudlab-demo/output/
 
